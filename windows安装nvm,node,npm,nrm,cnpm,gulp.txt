@@ -1,9 +1,0 @@
-1.下载nvm安装包
-https://github.com/coreybutler/nvm-windows/releases
-
-2.切换淘宝镜像
-在 nvm 的安装路径下，找到 settings.txt，在后面加上这两行
-node_mirror: https://npm.taobao.org/mirrors/node/
-npm_mirror: https://npm.taobao.org/mirrors/npm/
-
-3.
