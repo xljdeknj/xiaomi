@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>登录</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/login.css">
+    <script src="../js/require.js" async="true" defer data-main="../js/mainLog"></script>
+</head>
+
+<body>
+    <div class="header container">
+        <div class="logo"><a href="../index.html">小米网</a></div>
+    </div>
+    <div class="content">
+        <div class="content-main container">
+            <!-- 登录面板 -->
+            <div class="panel-primary" id="register">
+                <div class="panel-heading">
+                    帐号登录
+                </div>
+                <div class="panel-body">
+                    <div class="form-group">
+                        <input type="text" name="username" placeholder="邮箱/手机号码/小米ID" class="form-control"
+                            id="username">
+                    </div>
+                    <div class="form-group">
+                        <input type="password" name="password" placeholder="密码" class="form-control" id="password">
+                    </div>
+                    <div class="alert alert-danger" id="alert-danger"></div>
+
+                    <button class="btn-primary" id="login-button">登录</button>
+                    <p><a href="register.html">立即注册</a></p>
+                </div>
+            </div>
+            <!-- 信息面板 -->
+            <div class="toast" id="toast" role="alert" aria-live="assertive" aria-atomic="true">
+                <div class="toast-header">
+                    <!-- <strong class="mr-auto">Bootstrap</strong> -->
+                    <button type="button" class="ml-2 mb-1 close" data-dismiss="toast" aria-label="Close">
+                        <span id="clsBtn" aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="toast-body">
+                    登录成功！马上跳转 ...
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="footer">
+        <p>简体 | 繁体 | English | 常见问题 | 隐私政策</p>
+        <p>小米公司版权所有-京ICP备10046444-京公网安备11010802020134号-京ICP证110507号</p>
+    </div>
+</body>
+
+</html>

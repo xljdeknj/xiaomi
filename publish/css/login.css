@@ -1,0 +1,137 @@
+@charset "UTF-8";
+/* CSS Document */
+body, h1, h3, h2, h4, h5, h6, p, dl, dd, ul, li, ol, td, form, input, fieldset, legend {
+  margin: 0;
+  padding: 0; }
+
+li {
+  list-style: none; }
+
+a {
+  text-decoration: none;
+  font-size: 16px;
+  color: #333; }
+
+body {
+  font-size: 16px;
+  font-family: "微软雅黑";
+  color: #666;
+  background: white; }
+
+* {
+  box-sizing: border-box; }
+
+img {
+  vertical-align: top;
+  display: block;
+  border: none; }
+
+a, input {
+  outline: none; }
+
+em, i {
+  font-style: normal; }
+
+b, strong, h1, h2, h3, h4, h5, h6 {
+  font-weight: normal; }
+
+.clear:after {
+  content: "";
+  display: block;
+  clear: both;
+  height: 0;
+  visibility: hidden; }
+
+table {
+  border-collapse: collapse; }
+
+.border0 {
+  border: none; }
+
+.fl {
+  float: left; }
+
+.fr {
+  float: right; }
+
+.header {
+  width: 1126px;
+  height: 98px; }
+  .header .logo {
+    width: 200px;
+    height: 98px;
+    background: url(../images/mistore_logo.png) no-repeat; }
+    .header .logo a {
+      width: 100%;
+      height: 100%;
+      text-indent: -9999em;
+      display: block; }
+
+.content {
+  height: 618px;
+  background: url(../images/login-bg.jpg) no-repeat;
+  background-position: top center; }
+  .content .content-main {
+    width: 1126px;
+    height: 618px;
+    position: relative; }
+    .content .content-main #register {
+      width: 410px;
+      background-color: white;
+      position: absolute;
+      right: 0;
+      bottom: 0; }
+      .content .content-main #register .panel-heading {
+        height: 82px;
+        color: #ccc;
+        font-size: 26px;
+        text-align: center;
+        line-height: 82px;
+        padding: 0;
+        border-bottom: 0; }
+      .content .content-main #register .panel-body {
+        padding-left: 32px;
+        padding-top: 40px;
+        height: 473px; }
+        .content .content-main #register .panel-body .alert-danger {
+          margin-bottom: 10px;
+          padding: 2px;
+          width: 346px;
+          display: none; }
+      .content .content-main #register .form-control {
+        width: 346px;
+        height: 48px;
+        font-size: 16px; }
+      .content .content-main #register .btn-primary {
+        width: 346px;
+        height: 50px;
+        background-color: #f66600;
+        text-align: center;
+        border: none; }
+      .content .content-main #register p {
+        text-align: right;
+        font-size: 16px;
+        margin-top: 30px;
+        margin-right: 50px; }
+        .content .content-main #register p a {
+          text-decoration: none; }
+    .content .content-main #toast {
+      width: 400px;
+      height: 150px;
+      background-color: orange;
+      color: white;
+      font-size: 26px;
+      text-align: center;
+      line-height: 150px;
+      position: absolute;
+      right: 410px;
+      display: none;
+      border-radius: 5px; }
+
+.footer {
+  height: 150px; }
+  .footer p {
+    font-size: 16px;
+    text-align: center; }
+    .footer p:nth-of-type(1) {
+      padding-top: 60px; }

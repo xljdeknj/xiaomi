@@ -1,0 +1,127 @@
+@import "base";
+
+.header{
+    width: 1126px;
+    height: 98px;
+    // background-color: orange;
+    .logo{
+        width: 200px;
+        height: 98px;
+        background: url(../images/mistore_logo.png) no-repeat;
+        a{
+            width: 100%;
+            height: 100%;
+            text-indent: -9999em;
+            display: block;
+            // background-color: red;
+        }
+    }
+}
+
+.content{
+    height: 618px;
+    // background-color: purple;
+    background: url(../images/login-bg.jpg) no-repeat;
+    background-position: top center;
+
+    .content-main{
+        width: 1126px;
+        height: 618px;
+        // background-color: skyblue;
+        position: relative;
+        // form{
+        //     width: 410px;
+        //     height: 555px;
+        //     background-color: tomato;
+        //     position: absolute;
+        //     right: 0;
+        //     bottom: 0;
+        //     .form-header{
+        //         height: 82px;
+        //         background-color: blue;
+        //     }
+        // }
+        #register{
+            width: 410px;
+            // height: 555px;
+            background-color: white;
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            .panel-heading{
+                height: 82px;
+                color: #ccc;
+                font-size: 26px;
+                text-align: center;
+                line-height: 82px;
+                padding:0;
+                border-bottom:0;
+                // background-color: #fff;
+            }
+            .panel-body{
+                padding-left:32px;
+                padding-top:40px;
+                height:473px;
+                .alert-danger{
+                    margin-bottom: 10px;
+                    padding: 2px;
+                    width: 346px;
+                    // text-align: center;
+                    display: none;
+                }
+            }
+            .form-control{
+                width: 346px;
+                height: 48px;
+                font-size:16px;
+            }
+            .btn-primary{
+                width: 346px;
+                height: 50px;
+                background-color: #f66600;
+                text-align: center;
+                // outline: none;
+                border: none;
+            }
+
+            p{
+                text-align: right;
+                font-size: 16px;
+                margin-top:30px;
+                margin-right: 50px;
+                a{
+                    text-decoration: none;
+                }
+            }
+
+        }
+
+        
+        #toast{
+            width: 400px;
+            height: 150px;
+            background-color: orange;
+            // border: 2px solid #ccc;
+            color: white;
+            font-size: 26px;
+            text-align: center;
+            line-height: 150px;
+            position: absolute;
+            right: 410px;
+            display: none;
+            border-radius: 5px;
+        }
+    }
+}
+
+.footer{
+    height: 150px;
+    // background-color: orange;
+    p{
+        font-size: 16px;
+        text-align: center;
+        &:nth-of-type(1){
+            padding-top: 60px;
+        }
+    }
+}
