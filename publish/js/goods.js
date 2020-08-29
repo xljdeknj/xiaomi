@@ -18,7 +18,8 @@ define(["parabola", "jquery", "jquery-cookie"], function(parabola, $){
                                     <img src="${arr[i].img}" alt=""/>
                                 </div>
                                 <div class = 'goods_title'>
-                                    <p>【京东超市】奥利奥软点小草莓</p>
+                                    <p>【小米10至尊版】
+                                    120X变焦/120W秒充</p>
                                 </div>
                                 <div class = 'sc'>
                                     <div id = "${arr[i].id}" class = 'sc_btn'>加入购物车</div>
@@ -213,7 +214,7 @@ define(["parabola", "jquery", "jquery-cookie"], function(parabola, $){
                                         <img src="${newArr[i].img}" alt=""/>
                                     </div>
                                     <div class = 'sc_goodsTitle'>
-                                        <p>这是商品曲奇饼干</p>
+                                        <p>【小米10至尊版】买买买！</p>
                                     </div>
                                     <div class = 'sc_goodsBtn'>购买</div>
                                     <div class = 'sc_removeBtn'>删除</div>
